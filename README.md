@@ -1,2 +1,3 @@
 # travel
 基于Springboot+hibernate+jwt的前后端分离网站
+使用本地git提交到github

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>景点评价</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/view.css" rel="stylesheet">
+
+</head>
+
+<body>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Time With You</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="spotslist.html">景点推荐</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hotellist.html?id=1">住宿选择</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            我的
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+            <a class="dropdown-item" href="tables.html">全部评论</a>
+            <a class="dropdown-item" href="person.html">个人信息</a>
+
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+
+  <div class="row">
+    <div class="col-lg-8 col-md-8">
+      <h1 class="mt-4" id="js-spots"></h1>
+      <p id="js-creatatime"></p>
+      <hr>
+      <img id="js-images" class="img-fluid rounded" src="" alt="" style="width: 730px;height: 485px">
+      <hr>
+      <p class="lead" id="js-spotscenter"></p>
+      <hr>
+      <div class="card my-4">
+        <h5 class="card-header">留言</h5>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <textarea class="form-control" rows="3" id="js-cont"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary" id="js-butt">提交</button>
+          </form>
+        </div>
+      </div>
+      <div id="js-commentlist"></div>
+    </div>
+
+
+<div class="col-md-4 col-lg-4">
+  <div class="card my-4">
+    <h5 class="card-header">搜索</h5>
+    <div class="card-body">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search for...">
+        <span class="input-group-btn">
+						<button class="btn btn-secondary" type="button">Go</button>
+					</span>
+      </div>
+    </div>
+  </div>
+  <div class="card my-4">
+    <h5 class="card-header">景点标签</h5>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-lg-6">
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#">小众景点</a>
+            </li>
+            <li>
+              <a href="#">红砖老洋房</a>
+            </li>
+            <li>
+              <a href="#">历史痕迹</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#">广府文化</a>
+            </li>
+            <li>
+              <a href="#">文化气息</a>
+            </li>
+            <li>
+              <a href="#">西式洋楼</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card my-4">
+    <h5 class="card-header">景点推荐</h5>
+    <div class="card-body">
+      <li>猫头鹰主题咖啡馆</li>
+      <li>云上咖啡艺术会馆</li>
+      <li>庙前冰室</li>
+      <li>临渊茶酒馆</li>
+    </div>
+  </div>
+
+</div>
+  </div>
+
+</div>
+</div>
+
+</div>
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">广州城建职业学院 &copy;16软件7班 &copy; 张思祺 张冠诚</p>
+  </div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/ajax/publicj.js"></script>
+<script src="js/ajax/view.js"></script>
+</body>
+
+</html>
